@@ -1,8 +1,10 @@
-import { Metadata } from 'next'
-import { generateStaticParamsFor, importPage } from 'nextra/pages'
+import type { Metadata } from 'next'
+import { importPage } from 'nextra/pages'
 import { useMDXComponents as getMDXComponents } from '../../mdx-components'
 
-export const generateStaticParams = generateStaticParamsFor('mdxPath')
+// Opt the MDX catch-all route into runtime rendering.
+export const dynamic = 'force-dynamic'
+export const revalidate = false
 
 type PageProps = {
   params: Promise<{

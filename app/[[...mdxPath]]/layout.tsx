@@ -4,6 +4,10 @@ import { getPageMap } from 'nextra/page-map'
 
 const PAGE_ORDER = ['index', 'research', 'projects', 'achievements', 'skills', 'contact']
 
+// Keep the MDX route on-demand so Vercel does not prerender every slug at build time.
+export const dynamic = 'force-dynamic'
+export const revalidate = false
+
 function orderPageMap(items: any[]): any[] {
   return [...items]
     .map((item) =>
