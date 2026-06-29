@@ -1,0 +1,176 @@
+
+> portfolio@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.105:3000
+✓ Ready in 795ms
+- Experiments (use with caution):
+  · optimizePackageImports
+
+ GET / 500 in 1229ms (next.js: 906ms, application-code: 323ms)
+✓ Compiled in 8.5s
+ GET / 200 in 441ms (next.js: 119ms, application-code: 322ms)
+✓ Compiled in 37ms
+ GET / 200 in 221ms (next.js: 78ms, generate-params: 8ms, application-code: 143ms)
+✓ Compiled in 6s
+ GET / 200 in 289ms (next.js: 93ms, generate-params: 9ms, application-code: 196ms)
+ GET / 200 in 217ms (next.js: 20ms, generate-params: 11ms, application-code: 198ms)
+ GET / 200 in 394ms (next.js: 165ms, generate-params: 14ms, application-code: 228ms)
+ GET / 200 in 91ms (next.js: 8ms, generate-params: 45µs, application-code: 84ms)
+ GET / 200 in 311ms (next.js: 24ms, generate-params: 11ms, application-code: 287ms)
+✓ Compiled in 127ms
+ GET /research 200 in 330ms (next.js: 103ms, generate-params: 8ms, application-code: 228ms)
+ GET /research 200 in 88ms (next.js: 6ms, generate-params: 66µs, application-code: 83ms)
+ GET /research 200 in 90ms (next.js: 12ms, generate-params: 7ms, application-code: 78ms)
+ GET /research 200 in 99ms (next.js: 12ms, generate-params: 7ms, application-code: 87ms)
+ GET / 200 in 242ms (next.js: 17ms, generate-params: 10ms, application-code: 225ms)
+ GET /research 200 in 189ms (next.js: 25ms, generate-params: 12ms, application-code: 165ms)
+ GET /research 200 in 689ms (next.js: 139ms, generate-params: 7ms, application-code: 550ms)
+ GET /research 200 in 440ms (next.js: 16ms, generate-params: 45µs, application-code: 424ms)
+ GET /research 200 in 318ms (next.js: 12ms, generate-params: 48µs, application-code: 306ms)
+ GET /research 200 in 316ms (next.js: 230ms, generate-params: 124µs, application-code: 86ms)
+ GET /research 200 in 321ms (next.js: 84ms, generate-params: 39µs, application-code: 237ms)
+ GET /research 200 in 322ms (next.js: 159ms, generate-params: 85µs, application-code: 163ms)
+ GET /projects 200 in 312ms (next.js: 13ms, generate-params: 7ms, application-code: 300ms)
+ GET /projects 200 in 105ms (next.js: 12ms, generate-params: 6ms, application-code: 93ms)
+ GET /research 200 in 374ms (next.js: 20ms, generate-params: 12ms, application-code: 354ms)
+ GET /projects 200 in 86ms (next.js: 19ms, generate-params: 10ms, application-code: 68ms)
+ GET /projects 200 in 622ms (next.js: 170ms, generate-params: 10ms, application-code: 452ms)
+ GET /projects 200 in 317ms (next.js: 11ms, generate-params: 41µs, application-code: 305ms)
+ GET /projects 200 in 224ms (next.js: 150ms, generate-params: 33µs, application-code: 73ms)
+ GET /projects 200 in 227ms (next.js: 52ms, generate-params: 22µs, application-code: 175ms)
+ GET /projects 200 in 228ms (next.js: 96ms, generate-params: 34µs, application-code: 131ms)
+ GET /projects 200 in 231ms (next.js: 8ms, generate-params: 51µs, application-code: 223ms)
+ GET /projects 200 in 333ms (next.js: 12ms, generate-params: 6ms, application-code: 322ms)
+ GET /achievements 200 in 317ms (next.js: 6ms, generate-params: 60µs, application-code: 311ms)
+ GET /achievements 200 in 329ms (next.js: 153ms, generate-params: 23µs, application-code: 176ms)
+ GET /projects 200 in 216ms (next.js: 17ms, generate-params: 10ms, application-code: 199ms)
+ GET /research 200 in 91ms (next.js: 18ms, generate-params: 10ms, application-code: 73ms)
+ GET /achievements 200 in 84ms (next.js: 17ms, generate-params: 11ms, application-code: 67ms)
+ GET / 200 in 474ms (next.js: 29ms, generate-params: 14ms, application-code: 445ms)
+ GET /achievements 200 in 719ms (next.js: 211ms, generate-params: 9ms, application-code: 508ms)
+ GET / 200 in 297ms (next.js: 24ms, generate-params: 81µs, application-code: 274ms)
+ GET /achievements 200 in 296ms (next.js: 107ms, generate-params: 34µs, application-code: 188ms)
+ GET / 200 in 106ms (next.js: 11ms, generate-params: 41µs, application-code: 95ms)
+ GET /achievements 200 in 361ms (next.js: 14ms, generate-params: 8ms, application-code: 347ms)
+ GET /achievements 200 in 225ms (next.js: 20ms, generate-params: 12ms, application-code: 205ms)
+ GET / 200 in 89ms (next.js: 19ms, generate-params: 11ms, application-code: 71ms)
+ GET / 200 in 891ms (next.js: 336ms, generate-params: 24µs, application-code: 555ms)
+ GET / 200 in 895ms (next.js: 167ms, generate-params: 11ms, application-code: 728ms)
+ GET / 200 in 517ms (next.js: 7ms, generate-params: 24µs, application-code: 510ms)
+ GET / 200 in 473ms (next.js: 9ms, generate-params: 84µs, application-code: 464ms)
+ GET / 200 in 411ms (next.js: 96ms, generate-params: 31µs, application-code: 314ms)
+ GET / 200 in 413ms (next.js: 60ms, generate-params: 24µs, application-code: 354ms)
+ GET / 200 in 416ms (next.js: 10ms, generate-params: 70µs, application-code: 406ms)
+ GET / 200 in 415ms (next.js: 146ms, generate-params: 31µs, application-code: 269ms)
+ GET / 200 in 220ms (next.js: 11ms, generate-params: 25µs, application-code: 209ms)
+ GET / 200 in 220ms (next.js: 143ms, generate-params: 22µs, application-code: 77ms)
+ GET / 200 in 223ms (next.js: 98ms, generate-params: 33µs, application-code: 125ms)
+ GET / 200 in 225ms (next.js: 58ms, generate-params: 23µs, application-code: 167ms)
+ GET /skills 200 in 329ms (next.js: 12ms, generate-params: 7ms, application-code: 318ms)
+ GET /contact 200 in 157ms (next.js: 8ms, generate-params: 37µs, application-code: 149ms)
+ GET /contact 200 in 142ms (next.js: 15ms, generate-params: 8ms, application-code: 127ms)
+ GET /skills 200 in 117ms (next.js: 9ms, generate-params: 36µs, application-code: 108ms)
+ GET /skills 200 in 92ms (next.js: 19ms, generate-params: 12ms, application-code: 72ms)
+ GET / 200 in 75ms (next.js: 14ms, generate-params: 8ms, application-code: 61ms)
+ GET / 200 in 27ms (next.js: 15ms, generate-params: 9ms, application-code: 12ms)
+ GET / 200 in 57ms (next.js: 8ms, generate-params: 48µs, application-code: 49ms)
+ GET / 200 in 311ms (next.js: 19ms, generate-params: 10ms, application-code: 292ms)
+ GET /research 200 in 94ms (next.js: 18ms, generate-params: 10ms, application-code: 77ms)
+ GET /projects 200 in 89ms (next.js: 19ms, generate-params: 11ms, application-code: 70ms)
+ GET /skills 200 in 83ms (next.js: 18ms, generate-params: 10ms, application-code: 66ms)
+✓ Compiled in 227ms
+ GET /skills 200 in 1146ms (next.js: 818ms, generate-params: 45µs, application-code: 328ms)
+ GET / 200 in 1151ms (next.js: 216ms, generate-params: 12ms, application-code: 935ms)
+ GET /skills 200 in 239ms (next.js: 8ms, generate-params: 43µs, application-code: 231ms)
+ GET /skills 200 in 114ms (next.js: 10ms, generate-params: 40µs, application-code: 103ms)
+ GET /contact 200 in 130ms (next.js: 12ms, generate-params: 7ms, application-code: 118ms)
+ GET /skills 200 in 304ms (next.js: 14ms, generate-params: 8ms, application-code: 291ms)
+ GET / 200 in 131ms (next.js: 6ms, generate-params: 28µs, application-code: 125ms)
+ GET /skills 200 in 115ms (next.js: 5ms, generate-params: 30µs, application-code: 111ms)
+ GET /projects 200 in 167ms (next.js: 10ms, generate-params: 5ms, application-code: 157ms)
+ GET /projects 200 in 117ms (next.js: 13ms, generate-params: 7ms, application-code: 105ms)
+ GET /skills 200 in 188ms (next.js: 15ms, generate-params: 9ms, application-code: 173ms)
+ GET /skills 200 in 134ms (next.js: 12ms, generate-params: 6ms, application-code: 122ms)
+ GET /skills 200 in 160ms (next.js: 14ms, generate-params: 8ms, application-code: 145ms)
+ GET /skills 200 in 175ms (next.js: 14ms, generate-params: 9ms, application-code: 160ms)
+ GET / 200 in 58ms (next.js: 13ms, generate-params: 7ms, application-code: 45ms)
+ GET /achievements 200 in 93ms (next.js: 20ms, generate-params: 11ms, application-code: 73ms)
+ GET /contact 200 in 84ms (next.js: 18ms, generate-params: 10ms, application-code: 66ms)
+ GET /projects 200 in 58ms (next.js: 12ms, generate-params: 7ms, application-code: 45ms)
+ GET /research 200 in 74ms (next.js: 14ms, generate-params: 8ms, application-code: 60ms)
+ GET /skills 200 in 82ms (next.js: 16ms, generate-params: 9ms, application-code: 66ms)
+- [31merror[0m [nextra] Error while loading { pathSegments: [ '_pagefind', 'pagefind.js' ] } Error: Cannot find module 'private-next-content-dir/undefined'
+    at async Page (app\[[...mdxPath]]\page.tsx:23:52)
+  21 | export default async function Page(props: PageProps) {
+  22 |   const params = await props.params
+> 23 |   const { default: MDXContent, ...wrapperProps } = await importPage(params.mdxPath)
+     |                                                    ^
+  24 |
+  25 |   if (!Wrapper) {
+  26 |     return <MDXContent {...props} params={params} /> {
+  code: 'MODULE_NOT_FOUND'
+}
+- [31merror[0m [nextra] Error while loading { pathSegments: [ '_pagefind', 'pagefind.js' ] } Error: Cannot find module 'private-next-content-dir/undefined'
+    at async Module.generateMetadata (app\[[...mdxPath]]\page.tsx:15:24)
+  13 | export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  14 |   const { mdxPath } = await params
+> 15 |   const { metadata } = await importPage(mdxPath)
+     |                        ^
+  16 |   return metadata as Metadata
+  17 | }
+  18 | {
+  code: 'MODULE_NOT_FOUND'
+}
+ GET /_pagefind/pagefind.js 404 in 270ms (next.js: 22ms, generate-params: 11ms, application-code: 248ms)
+ GET / 200 in 68ms (next.js: 15ms, generate-params: 8ms, application-code: 52ms)
+ GET / 200 in 615ms (next.js: 164ms, generate-params: 7ms, application-code: 450ms)
+ GET / 200 in 277ms (next.js: 18ms, generate-params: 45µs, application-code: 259ms)
+ GET / 200 in 146ms (next.js: 8ms, generate-params: 23µs, application-code: 138ms)
+ GET / 200 in 82ms (next.js: 8ms, generate-params: 46µs, application-code: 74ms)
+ GET / 200 in 267ms (next.js: 15ms, generate-params: 7ms, application-code: 253ms)
+ GET / 200 in 136ms (next.js: 14ms, generate-params: 7ms, application-code: 122ms)
+ GET / 200 in 110ms (next.js: 5ms, generate-params: 26µs, application-code: 105ms)
+ GET / 200 in 87ms (next.js: 12ms, generate-params: 7ms, application-code: 74ms)
+ GET / 200 in 106ms (next.js: 12ms, generate-params: 7ms, application-code: 95ms)
+ GET / 200 in 100ms (next.js: 11ms, generate-params: 6ms, application-code: 89ms)
+ GET / 200 in 594ms (next.js: 244ms, generate-params: 11ms, application-code: 350ms)
+ GET / 200 in 169ms (next.js: 14ms, generate-params: 41µs, application-code: 154ms)
+ GET / 200 in 275ms (next.js: 13ms, generate-params: 7ms, application-code: 262ms)
+ GET / 200 in 107ms (next.js: 6ms, generate-params: 28µs, application-code: 101ms)
+ GET / 200 in 96ms (next.js: 12ms, generate-params: 7ms, application-code: 84ms)
+ GET / 200 in 186ms (next.js: 17ms, generate-params: 10ms, application-code: 169ms)
+ GET / 200 in 30ms (next.js: 16ms, generate-params: 9ms, application-code: 14ms)
+ GET / 200 in 55ms (next.js: 6ms, generate-params: 48µs, application-code: 48ms)
+ GET /research 200 in 69ms (next.js: 15ms, generate-params: 9ms, application-code: 54ms)
+ GET /projects 200 in 63ms (next.js: 13ms, generate-params: 7ms, application-code: 50ms)
+ GET /achievements 200 in 83ms (next.js: 18ms, generate-params: 10ms, application-code: 66ms)
+ GET /skills 200 in 91ms (next.js: 16ms, generate-params: 9ms, application-code: 76ms)
+ GET /contact 200 in 63ms (next.js: 14ms, generate-params: 8ms, application-code: 49ms)
+ GET / 200 in 72ms (next.js: 15ms, generate-params: 9ms, application-code: 57ms)
+ GET /contact 200 in 72ms (next.js: 17ms, generate-params: 10ms, application-code: 55ms)
+ GET /contact 200 in 753ms (next.js: 296ms, generate-params: 12ms, application-code: 457ms)
+ GET /contact 200 in 244ms (next.js: 28ms, generate-params: 108µs, application-code: 216ms)
+ GET /contact 200 in 471ms (next.js: 24ms, generate-params: 15ms, application-code: 446ms)
+ GET /contact 200 in 105ms (next.js: 5ms, generate-params: 27µs, application-code: 100ms)
+ GET /contact 200 in 157ms (next.js: 17ms, generate-params: 9ms, application-code: 140ms)
+ GET / 200 in 83ms (next.js: 19ms, generate-params: 11ms, application-code: 64ms)
+ GET /research 200 in 70ms (next.js: 18ms, generate-params: 10ms, application-code: 52ms)
+ GET / 200 in 73ms (next.js: 18ms, generate-params: 10ms, application-code: 54ms)
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.105:3000
+✓ Ready in 938ms
+- Experiments (use with caution):
+  · optimizePackageImports
+
+ GET / 200 in 1885ms (next.js: 1287ms, generate-params: 869ms, application-code: 598ms)
+ GET / 200 in 209ms (next.js: 30ms, generate-params: 17ms, application-code: 179ms)
+ GET / 200 in 46ms (next.js: 22ms, generate-params: 13ms, application-code: 24ms)
+ GET / 200 in 69ms (next.js: 8ms, generate-params: 40µs, application-code: 60ms)
+ GET /research 200 in 81ms (next.js: 21ms, generate-params: 12ms, application-code: 60ms)
+ GET /projects 200 in 67ms (next.js: 13ms, generate-params: 7ms, application-code: 54ms)
+ GET /achievements 200 in 86ms (next.js: 14ms, generate-params: 8ms, application-code: 72ms)
+ GET /projects 200 in 82ms (next.js: 16ms, generate-params: 9ms, application-code: 66ms)
