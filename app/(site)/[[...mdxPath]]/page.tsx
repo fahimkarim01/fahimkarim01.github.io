@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import { importPage } from 'nextra/pages'
-import { useMDXComponents as getMDXComponents } from '../../mdx-components'
+import { useMDXComponents as getMDXComponents } from '../../../mdx-components'
 
-// Opt the MDX catch-all route into runtime rendering.
 export const dynamic = 'force-dynamic'
 export const revalidate = false
 
