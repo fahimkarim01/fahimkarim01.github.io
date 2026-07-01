@@ -13,14 +13,28 @@ type PageProps = {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { mdxPath } = await params
-  const { metadata } = await importPage(mdxPath)
-  return metadata
+  try {
+    const { metadata } = await importPage(mdxPath)
+    return metadata
+  } catch (error) {
+    console.error('[nextra] generateMetadata importPage failed', { mdxPath, error })
+    throw error
+  }
 }
 
 export default async function Page(props: PageProps) {
   const params = await props.params
   const { mdxPath } = params
-  const { default: MDXContent, ...wrapperProps } = await importPage(mdxPath)
+  let page
+
+  try {
+    page = await importPage(mdxPath)
+  } catch (error) {
+    console.error('[nextra] Page importPage failed', { mdxPath, error })
+    throw error
+  }
+
+  const { default: MDXContent, ...wrapperProps } = page
   const Wrapper = getMDXComponents().wrapper
 
   if (!Wrapper) {

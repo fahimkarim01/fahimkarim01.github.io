@@ -28,7 +28,14 @@ function orderPageMap(items: any[]): any[] {
 }
 
 export default async function SiteLayout({ children }: { children: ReactNode }) {
-  const pageMap = orderPageMap(await getPageMap())
+  let pageMap
+
+  try {
+    pageMap = orderPageMap(await getPageMap())
+  } catch (error) {
+    console.error('[nextra] getPageMap failed in site layout', error)
+    throw error
+  }
 
   return (
     <>
