@@ -17,39 +17,8 @@ export const viewport: Viewport = {
   themeColor: '#d4d4d8',
 }
 
-const PAGE_ORDER = ['index', 'research', 'projects', 'achievements', 'skills', 'contact']
-
-function orderPageMap(items: any[]): any[] {
-  return [...items]
-    .map((item) =>
-      item && Array.isArray(item.children)
-        ? { ...item, children: orderPageMap(item.children) }
-        : item,
-    )
-    .sort((a, b) => {
-      const aIndex = PAGE_ORDER.indexOf(a?.name)
-      const bIndex = PAGE_ORDER.indexOf(b?.name)
-
-      if (aIndex === -1 && bIndex === -1) {
-        return String(a?.name ?? '').localeCompare(String(b?.name ?? ''))
-      }
-
-      if (aIndex === -1) return 1
-      if (bIndex === -1) return -1
-
-      return aIndex - bIndex
-    })
-}
-
 export default async function RootLayout({ children }: { children: ReactNode }) {
-  let pageMap
-
-  try {
-    pageMap = orderPageMap(await getPageMap())
-  } catch (error) {
-    console.error('[nextra] getPageMap failed in root layout', error)
-    throw error
-  }
+  const pageMap = await getPageMap()
 
   return (
     <html lang="en" suppressHydrationWarning>
