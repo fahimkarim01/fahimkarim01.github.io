@@ -1,10 +1,12 @@
-const { spawn } = require('child_process');
+const { execSync } = require('child_process');
+const fs = require('fs');
 
-const child = spawn('npm.cmd', ['run', 'build'], {
-  stdio: 'inherit',
-  shell: true
-});
-
-child.on('close', (code) => {
-  console.log(`child process exited with code ${code}`);
-});
+try {
+  console.log('Running build...');
+  const output = execSync('npm.cmd run build', { encoding: 'utf-8' });
+  fs.writeFileSync('build.log', output);
+  console.log('Build succeeded');
+} catch (error) {
+  fs.writeFileSync('build.log', error.stdout + '\n' + error.stderr);
+  console.log('Build failed. See build.log');
+}
