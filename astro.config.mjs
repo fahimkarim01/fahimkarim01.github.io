@@ -6,7 +6,6 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			
 			title: 'Portfolio',
 			sidebar: [
 				{ label: 'Home', link: '/' },
@@ -17,13 +16,6 @@ export default defineConfig({
 				{ label: 'Contact', link: '/contact/' },
 			],
 			customCss: [],
-
-				},
-				{
-					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
-				},
-			],
 		}),
 	],
 });
